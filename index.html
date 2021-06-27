@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- styles -->
+  <link rel="stylesheet" href="./css/normalize.css"/>
+  <link rel="stylesheet" href="./css/style.css"/>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+
+  <title>Ventas</title>
+</head>
+<body>
+  <div class="container">
+    <div class="filterBar">
+      <div class="filters">
+        <span class="filter">
+          <label>Seleccione el Cliente: </label>
+          <select>
+            <option>Todos</option>
+          </select>
+        </span>
+
+        <span class="filter"> 
+        <label>Seleccione el Estado: </label>
+          <select>
+            <option>Entregado</option>
+          </select>
+        </span>
+      </div>
+      <div class="tutorial">
+        <a href="#" alt="tutorial"><p>¿Queres aprovechar al máximo los filtros de las tablas?</p></a>            
+      </div>
+    </div>
+    
+    <div class="grid">
+
+      <div class="toolbar">
+        <div class="table-options">
+          <select >
+            <option selected disabled hidden>
+              Column
+            </option>
+          </select>
+          <button>Recargar</button> 
+          <button class="btn-blue">Colapsar</button>
+        </div>
+        <div class="buttons">
+          <button> + Pedido</button> 
+          <button>+ + Carga Masiva</button> 
+          <button class="btn-blue">Duplicar</button> 
+          <button class="btn-blue">Devolución</button> 
+          <button class="btn-red">Eliminar</button>
+        </div>
+      </div>
+
+      <div class="table-container">
+        <div class="table">
+          <table>
+            <thead>
+              <tr class="tr-light">
+                <th><span><img style="height: 20px; margin-bottom: -5px; margin-right: 6px; background: white; border-radius: 51%;" src="./assets/arrowDown.svg" alt="sort"/>Nro. Factura</span></th>
+                <th>Nro. Recibo</th>
+                <th>Nro. Pedido</th>
+                <th>Cliente</th>
+                <th>Fecha de entrega</th>
+                <th>Comentario</th>
+                <th>Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="tr-dark">
+                <th>000001</th>
+                <th>000001</th>
+                <th>400001</th>
+                <th>Cosme Fulanito</th>
+                <th>27-06-2021</th>
+                <th>lorem ipsum dolor sit ammet</th>
+                <th>120000</th>
+              </tr>
+              <tr class="tr-light-otro">
+                <th>000002</th>
+                <th>000002</th>
+                <th>400002</th>
+                <th>Sr Bolainas</th>
+                <th>28-06-2021</th>
+                <th>lorem ipsum dolor sit ammet</th>
+                <th>50000</th>
+              </tr>
+              <tr class="tr-dark">
+                <th>000003</th>
+                <th>000003</th>
+                <th>400003</th>
+                <th>Juan Topo</th>
+                <th>29-06-2021</th>
+                <th>lorem ipsum dolor sit ammet</th>
+                <th>45000</th>
+              </tr>
+              <tr class="tr-light-otro">
+                <th>000004</th>
+                <th>000004</th>
+                <th>400004</th>
+                <th>El Lider</th>
+                <th>30-06-2021</th>
+                <th>lorem ipsum dolor sit ammet</th>
+                <th>30000</th>
+              </tr>
+              <tr class="tr-dark">
+                <th>000005</th>
+                <th>000005</th>
+                <th>400005</th>
+                <th>Lucy Lawless</th>
+                <th>23-06-2021</th>
+                <th>lorem ipsum dolor sit ammet</th>
+                <th>100000</th>
+              </tr>
+              <tr class="tr-light-otro">
+                <th>000006</th>
+                <th>000006</th>
+                <th>400006</th>
+                <th>Artie Ziff</th>
+                <th>1-07-2021</th>
+                <th>lorem ipsum dolor sit ammet</th>
+                <th>48000</th>
+              </tr>
+              <tr class="tr-dark">
+                <th>000007</th>
+                <th>000007</th>
+                <th>400007</th>
+                <th>Frank Grimes</th>
+                <th>2-07-2021</th>
+                <th>lorem ipsum dolor sit ammet</th>
+                <th>100000</th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="pagination">
+        <button class="btn-page">Prev</button>
+        <button class="btn-page">1</button>
+        <button class="btn-page">2</button>
+        <button class="btn-page">3</button>
+        <button class="btn-page">Next</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
