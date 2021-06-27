@@ -9,7 +9,7 @@ Visitar [sitio web](https://ventas-mockup.netlify.app/)
 
 ### Imagenes
 ![fullzie](https://imgur.com/e2j7uQu.png)
-https://imgur.com/e2j7uQu.png
+
 
 
 ##### Hecon con :heart:
