@@ -1,6 +1,6 @@
 # Mockup seccion de Ventas dentro de Ventas
 
-### Tecnologías utilziadas
+### Tecnologías utilizadas
 - HTML5
 - CSS puro
 
