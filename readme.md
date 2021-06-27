@@ -12,4 +12,4 @@ Visitar [sitio web](https://ventas-mockup.netlify.app/)
 
 
 
-##### Hecon con :heart:
+##### Hecho con :heart:
