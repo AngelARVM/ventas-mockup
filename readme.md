@@ -2,7 +2,8 @@
 
 ### Tecnologías utilizadas
 - HTML5
-- CSS puro
+- CSS puro 
+
 
 Visitar [sitio web](https://ventas-mockup.netlify.app/)
 
